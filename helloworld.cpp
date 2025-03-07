@@ -1,7 +1,8 @@
 #include <iostream>
-using namespace std;
+
 int main()
 {
-    cout <<"Hello World\n";
-    return 0;
+    std::cout<< "Hello World" << std::ends;
+    std::cin.get();
+    return 0;                                   // no need to return 0 but only for main function which is a special case
 }
